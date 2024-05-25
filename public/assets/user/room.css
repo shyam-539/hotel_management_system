@@ -1,0 +1,144 @@
+.room-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.room {
+    width: 100%; /* Adjust width as needed */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    height: 300px;
+}
+
+.room-image {
+    width: 40%;
+}
+
+.room-image img {
+    width: 100%;
+    height: auto; 
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+img.room_image {
+    max-width: 32%;
+    height: auto;
+  }
+.room-details {
+    padding: 15px;
+    flex: 1;
+}
+.room-details h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333; 
+}
+
+.room-details p {
+    margin: 10px 0;
+    font-size: 16px; /* Set font size */
+    color: #666; /* Set color */
+}
+
+.room-details a {
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Show pointer on hover */
+}
+
+.room-details a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.price-details {
+    width: 20%;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border-left: 1px solid #ccc;
+}
+p.offer-price {
+    font-size: large;
+}
+.common-offer p {
+    margin: 0;
+    color: blue;
+}
+.book-now-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none; 
+    padding: 10px 20px;
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    margin-top: 10px; 
+    text-decoration: unset;
+}
+
+.book-now-button:hover {
+    background-color: #45a049; 
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .room-facility {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items horizontally */
+  }
+  
+  .room-facility p {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  .sold-out-button{
+    color: white;
+    background-color: #dd726c;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: unset;
+  }
+
+ 

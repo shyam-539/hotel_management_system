@@ -1,0 +1,192 @@
+
+.main_div{
+    height: auto;
+}
+.main_div {
+    width: 100%;
+    height: auto;
+
+}
+.main_div img{
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 530px;
+    position: relative;
+}
+.nav_bar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.nav_bar button{
+    width: 100px;
+    height: 35px;
+    background: white;
+    border: unset;
+    font-size: small;   
+}
+
+.login_details img{
+    width: 97%;
+    height: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login_details h2{
+    text-align: center;
+}
+
+.login_registration_form{
+    position: absolute;
+    top: 10%;
+    max-width: 850px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    transition: background-color 0.6s ease;
+    left: 15%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+.login_details form .user-details .input-box{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .login_details form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .login_details .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+ .login_details form .register_form{
+    text-align: center;
+  }
+ .login_details  form .button{
+    height: 45px;
+    margin: 60px 0
+  }
+ .login_details form .button input{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+ .login_details form .forgot_pwrd{
+    float: right;
+    
+  }
+ .login_details form .button input:hover{
+   /* transform: scale(0.99); */
+   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+   }
+.icons_nav .img_icon{
+    margin: 0 auto;
+    margin-bottom: 15px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffbb05;
+   
+} */
+.wrapper{
+    width: 1255px;
+    margin: auto;
+
+}
+/* grid view image description style start */
+.image_description_grid{
+    display: grid;
+    grid-auto-columns: 60% 40%;
+}
+.imagedesc_grid, .descimage_grid{
+    grid-row: 1;
+   
+}
+.imagedesc_grid img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+
+.imagedesc_grid h2, .descimage_grid h2{
+
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+.imagedesc_grid p, .descimage_grid p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#231F20;
+    padding-left: 30px;
+
+}
+.description_image_grid{
+  display: grid;
+  grid-auto-columns: 60% 40%;
+  /* margin-top: 124px; */
+}
+
+.descimage_grid img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    float: right;
+
+}
+.imagedesc_grid button, .descimage_grid button{
+border: unset;
+background-color: #f9d51c;
+width: 130px;
+height: 35px;
+margin-left: 30px;
+}
+
+.text-danger{
+    color: red;
+    font-size: 12px;
+}
